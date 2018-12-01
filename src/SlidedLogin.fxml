@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Pane fx:id="pane1" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: #39abb190; -fx-background-radius: 25;" AnchorPane.leftAnchor="700.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label layoutX="35.0" layoutY="39.0" text="AQUI VA TU LOGO WE" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="58.0" layoutY="87.0" promptText="USERNAME" unFocusColor="#39abb1" />
+            <JFXPasswordField focusColor="WHITE" labelFloat="true" layoutX="57.0" layoutY="132.0" promptText="PASSWORD" unFocusColor="#39abb1" />
+            <JFXButton layoutX="25.0" layoutY="200.0" style="-fx-background-color: WHITE; -fx-background-radius: 50; -fx-border-radius: 10; -fx-border-color: #39abb1;" text="PST, QUIERES EMPEZAR EN ESTO?" textFill="#39abb1" />
+            <JFXButton layoutX="8.0" layoutY="256.0" text="NO TE ACUERDAS DE TU CONTRASEÑA?" textFill="RED" underline="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
